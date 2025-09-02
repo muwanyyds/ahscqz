@@ -34,7 +34,7 @@ jobs:
       - name: -名称：设置页面
         uses: 用法：操作/configure-pages@v5
       - name: -名称：上传工件
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload entire repository
           path: '.'
